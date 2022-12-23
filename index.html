@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson Two</title>
+</head>
+<body>
+    <h2>FORMS</h2>
+    <div>
+        <form action="submit.html" autocomplete="on">
+        <div>
+            <label for="nm">Name </label><input type="text" name="name" id="nm" required maxlength="40">
+        </div><br>
+        <div>
+            <label for="em">Email ID </label><input type="email" name="email" id="em" required maxlength="25">
+        </div><br>
+        <div>
+            <label for="pw">Password </label><input type="password" name="pswd" id="pw" required maxlength="12">
+        </div><br>
+        <h4>Language</h4>
+        <div>
+        <input type="radio" name="cmplang" id="react"> <label for="react">React</label> <br>
+        <input type="radio" name="cmplang" id="angular"> <label for="angular">Angular</label> <br>
+        <input type="radio" name="cmplang" id="vue"> <label for="vue">Vue</label><br>
+        </div>
+        <h4>Course</h4>
+        <div>
+        <input type="checkbox" name="Course" id="MERN"> <label for="MERN">MERN</label> <br>
+        <input type="checkbox" name="Course" id="MEAN"> <label for="MEAN">MEAN</label> <br>
+        <input type="checkbox" name="Course" id="MEVN"> <label for="MEVN">MEVN</label>
+        </div><br>
+        <div>
+        <label for="field">Field:</label><br>
+        <select name="cousefield" id="field" required>
+            <option value=""></option>
+            <option value="frontend">Front End</option>
+            <option value="backend">Back End</option>
+            <option value="fullstack">Full Stack</option>
+        </select>
+        </div><br><br>
+        <div>
+            <textarea name="comments" id="cmnts" cols="30" rows="10"></textarea>
+        </div><br>
+        <label for="phn">Phone Number </label><input type="tel" name="phone" id="phn" maxlength="10"><br></br>
+        <input type="submit" name="Submit"> &nbsp;
+        <input type="reset" value="Reset">
+        </form>
+    </div>
+    <h2>TABLES</h2>
+    <a href="tables.html">Click Here!</a>
+</body>
+</html>
+
+            
